@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 
 
-@app.route('/home')
+@app.route('/')
 def man():
     return render_template('home.html')
 
